@@ -1,0 +1,53 @@
+.app_container{
+    background: #007bff;
+    background: linear-gradient(to right, #0062E6, #33AEFF);
+    width:100%;
+}
+.app_wrapper{
+    max-width: 1920px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.card_container{
+    padding: 20px;
+    position: relative;
+    background-color: #ddd;
+    margin: 30px;
+    cursor: pointer;
+    height:450px;
+    width:400px;
+    text-align: center;
+}
+
+.card_container:hover{
+    padding:10px;
+}
+
+ .heading{
+  background-color: white;
+  color:rgb(14, 39, 39);
+  margin:10px;
+ }
+ .button{
+  padding:5px;
+  background-color: blue;
+  color:aliceblue;
+  font-size: larger;
+ }
+ .li{
+  padding:5px;
+ }
+ li:hover{
+  color:black;
+  font-size: larger;
+ }
+ .img{
+  width:70%;
+  height: 400px;
+  object-fit: cover;
+  margin-top:5%;
+  margin-left: 10%;
+  margin-right: 10%;
+ }
